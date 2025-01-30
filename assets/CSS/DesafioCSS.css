@@ -14,7 +14,7 @@ section {
 .banner {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(49, 168, 211, 0.2), rgba(0, 0, 0, 0.6) ), /* Background aplicando cor gradiente na imagem*/
-    url('./assets/images/banner.png'); /* Caminho para a imagem */
+    url('../images/banner.png'); /* Caminho para a imagem */
     background-size: cover; /* Ajusta a imagem para cobrir todo o espaço disponível */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição */
@@ -86,11 +86,12 @@ p {
     border-image-slice: 10; /* Define a "parte" da borda para o gradiente */
     border-radius: 30px; /* Arredonda as bordas do botão */
 }
-}
+
 
 #course-content {
     width: 800px;
     text-align: center;
+    margin: auto;
 
 }
 
@@ -136,7 +137,7 @@ h2 {
 #transform-world {
     height: 560px;
     background-size: cover; /* Faz a imagem cobrir toda a seção */
-    background-image: url(./assets/images/woman-code.png);
+    background-image: url('../images/woman-code.png');
     background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
     border-top: 1px solid rgba(51, 174, 219, 0.8);
     border-bottom: 1px solid rgba(51, 174, 219, 0.8);
